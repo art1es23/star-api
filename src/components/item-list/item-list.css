@@ -1,0 +1,27 @@
+.item-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    margin-left: auto;
+    padding: 0;
+}
+.item-list__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 1rem 0.5rem;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.5rem;
+}
+
+.item-list__item:hover {
+    cursor: pointer;
+    color: sandybrown;
+}

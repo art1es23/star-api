@@ -1,0 +1,32 @@
+.header {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.nav__item {
+    width: 100%
+}
+
+.nav__link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.nav__link:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: none;
+}
